@@ -1,0 +1,193 @@
+/* DESARROLLADO POR DIEGO FUENTES ACEITUNO SOFTTIME, MAYO 2013 */
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	
+	font-family: inherit;
+	vertical-align: baseline;
+}
+a{
+	text-decoration: none;
+}
+
+
+body{
+background: url("img/fondo5.png");
+font-family: verdana;
+font-size: 11px;
+}
+
+p{
+	text-align: center;
+	
+}
+.p{
+	text-align: left;
+}
+
+.tablas td{
+  background: #fff;
+  height: 20px;
+}
+.tablas{
+	text-align: center;
+	border: 1px solid #d3d3d3;
+	margin-top: 20px;
+}
+
+.tabla:hover{
+	background-color: #ffff00;
+}
+
+.boton{
+	width: 80px;
+	height: 30px;
+	background: #f0e68c;
+
+}
+.boton:hover{
+	background: #006464;
+	color: #fff;
+}
+
+.boton1{
+	width: 150px;
+	height: 30px;
+	background: #f0e68c;
+
+}
+.boton1:hover{
+	background: #006464;
+	color: #fff;
+}
+#login{
+	position: relative;
+
+
+}
+#fondo{
+	height: 240px;
+	border: 3px solid #696969;
+	background-color: #fff;
+	position:absolute; z-index:-1;
+	top:0;
+	left:0;
+	right:0; bottom:0;
+	opacity:0.4;
+}
+
+
+#menu{
+	width: 200px;
+	border: 1px solid #cdcdcd;
+	float: left;
+	margin-left: 50px;
+	margin-top: 100px;
+	text-align: center;
+
+}
+
+#centro{
+	width: 780px;
+	border: 0px solid #bdb76b;
+	float: right;
+	margin-right: 180px;
+	margin-top: -10px;
+
+}
+#logo{
+	border: 0px solid #000;
+	width: 150px;
+	margin-top: 70px;
+	
+}
+.btn_menu{
+	width: 200px;
+	height: 40px;
+	background-color: #94AA74;
+	color: #fff;
+	font-weight: bold;
+	border-bottom: 1px solid #cdcdcd;
+	
+	
+}
+
+.btn_menu:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.btn_menu ul a {
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+	vertical-align: middle;
+}
+ul a li{
+	vertical-align: middle;
+}
+
+.copy{
+	font-weight: normal;
+	font-size: 9px;
+	text-align: center;
+}
+.es{
+	text-align: left;
+	font-size: 10px;
+}
+.Estadisticas{
+	text-align: center;
+
+
+}
+.Estadisticas td{
+	border: 1px solid #cdcdcd;
+	background-color: #fff;
+}
+.Estadisticas td:hover{
+	background-color: #ffd700;
+}
+.total{
+	background-color: #000;
+}
+
+td.titulo2
+{
+	background-color: #808080;
+	color: #fff;
+}
+
+
+td.titulo
+{
+	background-color: #000;
+	color:#FFF;
+}
+td.fondo 
+{
+	background-color: #fff;
+	font-size: 11px;
+}
+td.fondo:hover{
+	background-color: #ffff99;
+
+}
+td.por
+{
+	background-color: #ffff99;
+	text-align: center;
+}
