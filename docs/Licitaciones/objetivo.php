@@ -151,7 +151,7 @@ $val = mysql_num_rows($rs);
 	<td class="ancho_input" align="center"><input type="text" onkeyup="sumar(this);" name="Ccombustible" value="<?php echo $combustible; ?>"></td>
 	<td class="ancho_input" align="center"><input type="text" onkeyup="sumar(this);" name="Cmaquinarias" value="<?php echo $maquinarias; ?>"></td>
 	<td class="ancho_input" align="center"><input type="text" onkeyup="sumar(this);" name="Cseguridad" value="<?php echo $seguridad; ?>"></td>
-	<td class="ancho_input" align="center"><input type="text" onkeyup="sumar(this;" name="Cexternos" value="<?php echo $externos; ?>"></td>
+	<td class="ancho_input" align="center"><input type="text" onkeyup="sumar(this);" name="Cexternos" value="<?php echo $externos; ?>"></td>
 	<td class="ancho_input" align="center"><input type="text" onkeyup="sumar(this);" name="Ccolaciones" value="<?php echo $colaciones; ?>"></td>
 </tr>
 </table>
@@ -205,7 +205,7 @@ $val = mysql_num_rows($rs);
 	<td align="center">Total</td>
 </tr>
 <tr>
-	<td class="ancho_input" align="center"><input type="text" onkeyup="sumar(this)" value="<?php echo $total_operacional; ?>" name="Coperacionales"></td>
+	<td class="ancho_input" align="center"><input type="text"  value="<?php echo $total_operacional; ?>" name="Coperacionales"></td>
 	<td class="ancho_input" align="center"><input type="text" name="Cremuneraciones" value="<?php echo $total_remuneraciones; ?>"></td>
 	<td class="ancho_input" align="center"><input type="text" name="Cgenerales" value="<?php echo $total_general; ?>"></td>
 	<td class="ancho_input" align="center"><input type="hidden" name="igual">&nbsp;&nbsp;=&nbsp;</td>
